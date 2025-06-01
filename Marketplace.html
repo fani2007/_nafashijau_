@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marketplace - Nafas Hijau</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .hero {
+      background-color: #6BA368;
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #2d2d2d;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-success" href="index.html">Nafas Hijau</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link active text-success fw-semibold" href="#">Marketplace</a></li>
+        <li class="nav-item"><a class="nav-link" href="Edukasi.html">Edukasi</a></li>
+        <li class="nav-item"><a class="nav-link" href="Komunitas.html">Komunitas</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <h1 class="display-5">Belanja Hijau, Hidup Lebih Sehat</h1>
+    <p class="lead">Dukung gaya hidup berkelanjutan dengan produk ramah lingkungan.</p>
+  </div>
+</section>
+
+<!-- Filter Kategori -->
+<section class="py-4">
+  <div class="container">
+    <h4>Filter Kategori</h4>
+    <select class="form-select w-50 mb-3">
+      <option selected>Semua Kategori</option>
+      <option>Produk Daur Ulang</option>
+      <option>Zero Waste</option>
+      <option>UMKM Lokal</option>
+    </select>
+  </div>
+</section>
+
+<!-- Produk -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="botol.jpg" class="card-img-top" alt="Tumbler Eco">
+          <div class="card-body">
+            <h5 class="card-title">Tumbler Eco</h5>
+            <p class="card-text">Tumbler ramah lingkungan berbahan daur ulang.</p>
+            <p class="text-success fw-bold">Rp 45.000</p>
+            <a href="#" class="btn btn-success w-100">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="sabun.jpg" class="card-img-top" alt="Sabun Organik">
+          <div class="card-body">
+            <h5 class="card-title">Sabun Organik</h5>
+            <p class="card-text">Tanpa bahan kimia berbahaya, aman untuk kulit & lingkungan.</p>
+            <p class="text-success fw-bold">Rp 20.000</p>
+            <a href="#" class="btn btn-success w-100">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="tas.jpg" class="card-img-top" alt="Tas Belanja Kain">
+          <div class="card-body">
+            <h5 class="card-title">Tas Belanja Kain</h5>
+            <p class="card-text">Bisa dicuci ulang, cocok untuk mengganti kantong plastik.</p>
+            <p class="text-success fw-bold">Rp 25.000</p>
+            <a href="#" class="btn btn-success w-100">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimoni -->
+<section class="py-5">
+  <div class="container text-center">
+    <h4 class="mb-4">Testimoni Pengguna</h4>
+    <div class="card w-75 mx-auto shadow">
+      <div class="card-body">
+        <p class="card-text fst-italic">"Produk Nafas Hijau sangat membantu saya untuk mulai hidup lebih ramah lingkungan. Kualitas bagus dan harga terjangkau!"</p>
+        <footer class="blockquote-footer">Nayla Qonita</footer>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Nafas Hijau. Seluruh hak cipta dilindungi.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
